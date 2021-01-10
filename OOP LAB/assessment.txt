@@ -1,0 +1,11 @@
+Design a product management application(main class) using multi level inhertance.
+Consider the following details:
+i. Manufacturing plant class should contain the following details:
+ a. Check status( boolean and false)
+ b. product id in int
+ c. name  in string
+ d. quality in percentage(below 75, bw 75 and 80, above 80)
+ e. price in int or float
+ii. In the quality check class, check status variable and set it to true if quality>75
+iii. In release product class, give discount of 10% if quality is in bw 75 and 80 and display the details
+Take 5 products as input
